@@ -3,7 +3,7 @@ from ck import *
 from time import strftime
 
 root = Tk()
-root.title("Digital Clock")
+root.title("Digital Clock with Date")
 root.geometry("400x150")
 
 def update_time():
