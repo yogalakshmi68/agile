@@ -16,6 +16,13 @@ total = price1 + price2 + price3
 gst = total * 0.18
 final_amount = total + gst
 
+# New Feature: 10% Discount
+discount = total * 0.10
+amount_after_discount = total - discount
+
+gst = amount_after_discount * 0.18
+final_amount = amount_after_discount + gst
+
 print("\n------ BILL ------")
 print("Customer:", customer)
 print(item1, ":", price1)
