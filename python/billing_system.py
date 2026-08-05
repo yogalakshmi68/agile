@@ -1,5 +1,4 @@
 # Billing System
-
 print("====== Billing System ======")
 
 customer = input("Enter Customer Name: ")
