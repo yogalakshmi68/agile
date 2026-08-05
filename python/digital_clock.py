@@ -1,4 +1,5 @@
-from tkinter import *
+#Digital_clock.py
+from ck import *
 from time import strftime
 
 root = Tk()
@@ -22,3 +23,4 @@ label.pack(fill="both", expand=True)
 update_time()
 
 root.mainloop()
+
